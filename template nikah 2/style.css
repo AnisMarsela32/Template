@@ -1,0 +1,94 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    background-image: url("image/purple.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+div.content {
+    margin-left: 800px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+.btn {
+    background-color: rgb(204, 52, 218) !important;
+    color: white !important;
+}
+.text{
+    font-family: "Sofia", sans-serif;
+    color: white;
+}
+.judul {
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+			/* font-family: Arial, Helvetica, sans-serif; */
+			background: linear-gradient(to right, #f32170,
+					#ff6b08, #cf23cf, #eedd44);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+}
+.judul2 {
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+	color: white;
+}
+.background{
+    background: linear-gradient(-45deg, pink, purple, rgb(36, 39, 211));
+}
+
+.nav {
+    /* overflow: hidden; */
+    background-color: #333;  
+    /* position: fixed; */
+    bottom: 0;
+    color: #cf23cf;
+    width: 100%;
+  }
+  
+  .nav-item a {
+    /* float: left; */
+    display: block;
+    color: #ca2cd8;
+    text-align: center;
+    padding: 7px 7px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav a:hover {
+    background-color: #aa2a99;
+    color: rgb(255, 255, 255);
+  }
+  
+  
